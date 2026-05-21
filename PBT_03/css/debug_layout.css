@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto;
+    border: 3px solid black;
+    background: #f3f4f6;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ===== Layout lỗi ===== */
+.broken .sidebar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: lightblue;
+    float: left;
+}
+
+.broken .content {
+    width: 660px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: lightyellow;
+    float: left;
+}
+
+/* ===== Fix bằng border-box ===== */
+.fixed-border-box * {
+    box-sizing: border-box;
+}
+
+.fixed-border-box .sidebar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: lightgreen;
+    float: left;
+}
+
+.fixed-border-box .content {
+    width: 660px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: lightpink;
+    float: left;
+}
+/* ===== Fix bằng tính toán lại width ===== */
+.fixed-normal .sidebar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #93c5fd;
+    float: left;
+}
+
+.fixed-normal .content {
+    width: 556px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: #fde68a;
+    float: left;
+}
