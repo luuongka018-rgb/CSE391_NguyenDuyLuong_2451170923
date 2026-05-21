@@ -157,7 +157,7 @@ Sửa:<input type="checkbox" id="agree" name="agree" required>
     Tôi đồng ý điều khoản
 </label>
 
-# C2: Xác thực thiết kế chiến lược
+# C2: Xác thực thiết kế chiến lược.
 
 
 
