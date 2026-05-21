@@ -296,7 +296,7 @@ vì important có ưu tiên cao nhất → color = green
     color: green !important;
 } 
 
-vì important có ưu tiên cao nhất → color = green
+vì important có ưu tiên cao nhất → color = green.
 
 
 
